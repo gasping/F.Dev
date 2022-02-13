@@ -7,23 +7,23 @@
     <title>Document</title>
 
     <style>
-        div p{
+        div p{ /*Todos los p que esten dentro de div*/
         color: lime;
         }
-        div > div {
+        div > div {/*Hijos directos "El que esta dentro del div" */
             background: plum;
         }
         .es{
             background: red;
         }
-        div + section{
+        div + section{/*elementos adyacentes el elemento siguiente, mas no el anterior*/
             background: palevioletred;
         }
 
-        div ~ p{
-            color: yellow;
+        div ~ p{/*Todos los p que esten fuera de div*/
+            color: rgb(228, 64, 214);
         }
-    </style>
+    </style> 
 </head>
 <body>
     <div>        
@@ -34,11 +34,14 @@
             <div class="es">yomiosh</div>
         </div>        
     </div>
+    <p>Es lo mejor de lo mejor platzi</p>
     <section>
         <p>yomiosh</p>
     </section>
     <div>
         Ricooosh
     </div>
+    
+    
 </body>
 </html>
